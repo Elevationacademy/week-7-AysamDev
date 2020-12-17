@@ -1,0 +1,23 @@
+{
+  "name": "basic-test-starter",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "all": "0.0.0",
+    "bluebird": "^3.5.1",
+    "jest-cli": "^26.6.3",
+    "jest-json-reporter": "^1.2.2"
+  },
+  "devDependencies": {
+    "babel-plugin-react-html-attrs": "^2.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "jest": "^26.6.3",
+    "jest-expect-message": "github:Elevationacademy/jest-expect-message",
+    "jest-test-runner": "git+https://github.com/Elevationacademy/jest-test-runner.git",
+    "jest-transform-stub": "^1.0.0"
+  },
+  "scripts": {
+    "test-silent": "jest --runInBand || exit 0",
+    "tests": "tests --runInBand"
+  }
+}
